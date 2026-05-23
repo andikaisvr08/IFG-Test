@@ -1,0 +1,22 @@
+.gradle
+bin
+build
+output
+!output/.gitkeep
+
+# IDE
+.classpath
+.project
+.settings/
+.cache
+
+# Katalon
+Reports/
+Libs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log

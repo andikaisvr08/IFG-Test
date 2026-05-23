@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL REST API</description>
+      <initValue>'https://jsonplaceholder.typicode.com'</initValue>
+      <name>BASE_URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Kafka Bootstrap Servers</description>
+      <initValue>'localhost:9092'</initValue>
+      <name>KAFKA_BOOTSTRAP_SERVERS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Kafka Topic</description>
+      <initValue>'ifg-test-topic'</initValue>
+      <name>KAFKA_TOPIC</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

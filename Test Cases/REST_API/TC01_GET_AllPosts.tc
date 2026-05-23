@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GET All Posts - Katalon as Consumer. Mengambil semua posts dari REST API dan memvalidasi response</description>
+   <name>TC01_GET_AllPosts</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc01-get-all-posts-guid</testCaseGuid>
+</TestCaseEntity>

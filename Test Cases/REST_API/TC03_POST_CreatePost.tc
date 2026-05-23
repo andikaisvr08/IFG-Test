@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>POST Create New Post - Katalon as Producer. Membuat post baru melalui REST API</description>
+   <name>TC03_POST_CreatePost</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc03-post-create-post-guid</testCaseGuid>
+</TestCaseEntity>

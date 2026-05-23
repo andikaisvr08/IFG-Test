@@ -1,0 +1,8 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.1.2"
+}
+
+repositories {
+  mavenCentral()
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GET Single Post by ID - Katalon as Consumer. Mengambil post tertentu berdasarkan ID</description>
+   <name>TC02_GET_SinglePost</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>tc02-get-single-post-guid</testCaseGuid>
+</TestCaseEntity>
