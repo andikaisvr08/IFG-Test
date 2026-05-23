@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Kafka Consumer - Katalon sebagai Consumer subscribe ke topic dan consume messages.</description>
-   <name>TC04_Kafka_ConsumeMessages</name>
+   <name>TC06_Kafka_ConsumeMessages</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>tc04-kafka-consume-messages-guid</testCaseGuid>
+   <testCaseGuid>tc06-kafka-consume-messages-guid</testCaseGuid>
 </TestCaseEntity>

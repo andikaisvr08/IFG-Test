@@ -8,7 +8,7 @@ output
 .classpath
 .project
 .settings/
-.cache
+.cache/
 
 # Katalon
 Reports/

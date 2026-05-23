@@ -1,23 +1,30 @@
 # IFGTest-API
 
-Katalon Studio project untuk pengujian REST API dan Kafka Consumer.
+Katalon Studio project for REST API and Kafka testing.
 
 ## Test Cases
 
-| Test Case | Tipe | Peran Katalon |
-|-----------|------|---------------|
-| TC01_GET_AllPosts | REST API | Consumer (GET) |
-| TC02_GET_SinglePost | REST API | Consumer (GET by ID) |
-| TC03_POST_CreatePost | REST API | Producer (POST) |
-| TC04_Kafka_ConsumeMessages | Kafka | Consumer |
+- **TC01** - GET all posts (consumer)
+- **TC02** - GET single post + negative test 404 (consumer)
+- **TC03** - POST create post (producer)
+- **TC04** - POST empty body / negative test (producer)
+- **TC05** - Using Katalon built-in WS keywords + Object Repository
+- **TC06** - Kafka consumer (subscribe & consume messages)
 
-## Cara Menjalankan
+## How to Run
 
-1. Buka project di Katalon Studio
-2. REST API: langsung jalankan TC01/TC02/TC03 (tanpa setup)
-3. Kafka: jalankan `docker-compose up -d` dulu, lalu jalankan TC04
+- REST API (TC01-TC05): Run in Katalon Studio, no setup needed.
+- Kafka (TC06): Need Docker first. Run `docker-compose up -d`
 
-## Target API
+## API Target
 
 - REST: https://jsonplaceholder.typicode.com
-- Kafka: localhost:9092 (via Docker)
+- Kafka: localhost:9092
+
+## Folder
+
+- `Scripts/` - test scripts
+- `Object Repository/` - WS request objects (for TC05)
+- `Drivers/` - kafka JAR
+- `evidence/` - screenshot test results
+- `docker-compose.yml` - kafka setup

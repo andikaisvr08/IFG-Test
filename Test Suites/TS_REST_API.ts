@@ -27,4 +27,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/REST_API/TC03_POST_CreatePost</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>tc04-guid</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/TC04_POST_InvalidData</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>tc05-guid</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/REST_API/TC05_WebService_BuiltIn</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

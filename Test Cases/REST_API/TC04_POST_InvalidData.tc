@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>POST with Invalid Data - Negative Test dan Response Time validation</description>
+   <name>TC04_POST_InvalidData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc04-post-invalid-data-guid</testCaseGuid>
+</TestCaseEntity>

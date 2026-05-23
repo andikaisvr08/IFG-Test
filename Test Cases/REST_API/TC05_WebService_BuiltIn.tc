@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>REST API test menggunakan Katalon Built-in Web Service Keywords dan Object Repository</description>
+   <name>TC05_WebService_BuiltIn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>tc05-webservice-builtin-guid</testCaseGuid>
+</TestCaseEntity>

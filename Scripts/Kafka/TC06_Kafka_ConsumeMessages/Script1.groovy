@@ -7,7 +7,7 @@ import org.apache.kafka.common.serialization.StringDeserializer
 
 import java.time.Duration
 
-// TC04: Kafka Consumer - Katalon sebagai Consumer
+// TC06: Kafka Consumer - Katalon sebagai Consumer
 // Prerequisite: Kafka running (docker-compose up -d)
 
 // Config
@@ -30,7 +30,7 @@ try {
     consumer.subscribe(Arrays.asList(topic))
     KeywordUtil.logInfo("Subscribed to topic: ${topic}")
 
-    // Poll messages (timeout 10s)
+    // Poll messages (timeout 10 detik)
     def messages = []
     def startTime = System.currentTimeMillis()
     
@@ -58,7 +58,7 @@ try {
         KeywordUtil.logInfo("No messages in topic (topic may be empty - this is OK for demo)")
     }
 
-    KeywordUtil.logInfo("TC04 Kafka Consumer PASSED")
+    KeywordUtil.logInfo("TC06 Kafka Consumer PASSED")
 
 } catch (Exception e) {
     KeywordUtil.markFailed("Kafka Consumer error: ${e.message}")
